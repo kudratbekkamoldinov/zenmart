@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zenmart</title>
-    <link rel="stylesheet" href="public/css/command.css" />
-    <link rel="stylesheet" href="/public/css/product_all" />
+    <link rel="stylesheet" href="../public/css/command.css" />
+    <link rel="stylesheet" href="../public/css/product_all.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,8 +18,8 @@
     <div class="navbar_frame">
       <div class="container">
         <div class="navbar_top">
-          <a href="">
-            <img src="public/images/logo.png" alt="" />
+          <a href="../index.html">
+            <img src="../public/images/logo.png" alt="" />
           </a>
           <div class="nav_search_frame">
             <div class="search_box">
@@ -32,13 +32,13 @@
               <input type="search" placeholder="Serach Prodocts" />
             </div>
             <div class="search_icon_box">
-              <img src="public/images/heart.svg" alt="" srcset="" />
+              <img src="../public/images/heart.svg" alt="" srcset="" />
             </div>
           </div>
           <div class="nav_top_menu">
             <a href="../other/login.html">
               <div class="top_menu_box">
-                <img src="public/images/heart.svg" alt="" />
+                <img src="../public/images/heart.svg" alt="" />
               </div>
               <div class="box_info_box">
                 <span>Wishlist</span>
@@ -47,7 +47,7 @@
             </a>
             <a href="">
               <div class="top_menu_box">
-                <img src="public/images/user.svg" alt="" />
+                <img src="../public/images/user.svg" alt="" />
               </div>
               <div class="box_info_box">
                 <span>Sign in</span>
@@ -58,7 +58,7 @@
               <div class="top_menu_box">
                 <div class="box_icon_box">
                   <div class="basket_count">2</div>
-                  <img src="public/images/cart.svg" alt="" />
+                  <img src="../public/images/cart.svg" alt="" />
                 </div>
 
                 <div class="box_info_box">
@@ -72,24 +72,24 @@
         <div class="navbar_bott">
           <div class="navbar_bott_menu_box">
             <div class="browse_box">
-              <img src="public/images/Group.svg" alt="" />
+              <img src="../public/images/Group.svg" alt="" />
               <span>Browse Categories</span>
             </div>
             <div class="navbar_router_menu">
               <div class="router_menu">
-                <a href="" class="active">Home</a>
+                <a href="/index.html" >Home</a>
               </div>
               <div class="router_menu">
-                <a href="">Shop</a>
+                <a href="./all.html" class="active">Shop</a>
               </div>
               <div class="router_menu">
-                <a href="">Orders</a>
+                <a href="../order/cart.html">Orders</a>
               </div>
               <div class="router_menu">
-                <a href="">About</a>
+                <a href="../other/about.html">About</a>
               </div>
               <div class="router_menu">
-                <a href="">Contact</a>
+                <a href="../other/contact.html">Contact</a>
               </div>
             </div>
             <div class="sorting_menu">
@@ -104,50 +104,20 @@
     </div>
 
     <div class="shop_page">
-      <div class="shop_category_frame">
+      <div class="category_top_frame">
         <div class="container">
-          <div class="category_top">
-            <span>Shop Category</span>
-            <a href="">View All Categories</a>
-          </div>
-          <div class="category_wrapper">
-            <div class="category_box">
-              <div class="category_img_box">
-                <img src="public/images/category/tv.svg" alt="" />
-              </div>
-              <span>TVs, Home Theatre, and Accessories</span>
-            </div>
-            <div class="category_box">
-              <div class="category_img_box">
-                <img src="public/images/category/laptop.png" alt="" />
-              </div>
-              <span>Computers, Tablets, and Accessories</span>
-            </div>
-            <div class="category_box">
-              <div class="category_img_box">
-                <img src="public/images/category/smhome.png" alt="" />
-              </div>
-              <span>Smart Home</span>
-            </div>
-            <div class="category_box">
-              <div class="category_img_box">
-                <img src="public/images/category/h.phone.png" alt="" />
-              </div>
-              <span>Headphones and Portable Speakers</span>
-            </div>
-            <div class="category_box">
-              <div class="category_img_box">
-                <img src="public/images/category/phone.png" alt="" />
-              </div>
-              <span>Cell Phones and Accessories</span>
-            </div>
-            <div class="category_box">
-              <div class="category_img_box">
-                <img src="public/images/category/joystick.png" alt="" />
-              </div>
-              <span>Video Games, Consoles and Accessories</span>
-            </div>
-          </div>
+          <div>All Electronics</div>
+          <div>Smart TV</div>
+          <div>Laptops</div>
+          <div>Cell Phones</div>
+          <div>Camera & Photos</div>
+          <div>Portable Audio</div>
+          <div>Combeter Electronics</div>
+          <div>iPad & Tablets</div>
+          <div>PC Gaming</div>
+          <div>Smart Home devices</div>
+          <div >Headphones</div>
+
         </div>
       </div>
       <div class="page_router">
@@ -163,101 +133,94 @@
         <div class="container">
           <div class="header_left">
             <div class="header_content">
-              <div>Special Offer</div>
-              <span>Immersive Enterainment</span>
-              <p>Discover our new items. up to 25% off!</p>
-              <a href="">Shop Now</a>
-              <img src="public/images/header_img.svg" alt="" />
-            </div>
-          </div>
-          <div class="header_right">
-            <div class="header_box">
-              <div class="box_left">
-                <span>Starting from $899</span>
-                <p>Health Care Monitor</p>
-                <a href="">Shop Now</a>
-                <div class="hover_border"></div>
-              </div>
-              <div class="box_right">
-                <img src="public/images/image 30-10.png" alt="" />
-              </div>
-            </div>
-            <div class="header_box">
-              <div class="box_left">
-                <span>Starting from $899</span>
-                <p>Health Care Monitor</p>
-                <a href="">Shop Now</a>
-                <div class="hover_border"></div>
-              </div>
-              <div class="box_right">
-                <img src="public/images/image 30-10.png" alt="" />
+              <span>Save up to 200$ on any laptop purchase</span>
+              <p>All kind of products in one place. Starts from $1. Get cashbacks & offers</p>
+              <a href="">Shop Best Deals</a>
+              <div class="pagination_box">
+                <div class="pagination_main">
+                  <img src="../public/images/icons/arrow-prev_next.svg" alt="" />
+                  <div class="pagination_dot">
+                    <div class="dot">
+                      <div></div>
+                    </div>
+                    <div class="dot active">
+                      <div></div>
+                    </div>
+                    <div class="dot">
+                      <div></div>
+                    </div>
+                    <div class="dot">
+                      <div></div>
+                    </div>
+                    <div class="dot">
+                      <div></div>
+                    </div>
+                    <div class="dot">
+                      <div></div>
+                    </div>
+                  </div>
+                  <img
+                    src="../public/images/icons/arrow-prev_next.svg"
+                    alt=""
+                    style="transform: scaleX(-1)"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="category_frame">
+      <div class="shop_category_frame">
         <div class="container">
           <div class="category_top">
-            <span>Top Selling Products</span>
-            <a href="/Product/all.html">View All</a>
+            <span>Shop Category</span>
+            <a href="./Product/all.html">View All Categories</a>
           </div>
-          <div class="category_bottom">
+          <div class="category_wrapper">
             <div class="category_box">
-              <div class="category_box_img">
-                <img src="/public/images/category/tv.png" />
+              <div class="category_img_box">
+                <img src="../public/images/category/tv.svg" alt="" />
               </div>
               <span>TVs, Home Theatre, and Accessories</span>
             </div>
             <div class="category_box">
-              <div class="category_box_img">
-                <img
-                  src="/public/images/category/laptop.png"
-                  alt="Computer"
-                />
+              <div class="category_img_box">
+                <img src="../public/images/category/laptop.png" alt="" />
               </div>
               <span>Computers, Tablets, and Accessories</span>
             </div>
             <div class="category_box">
-              <div class="category_box_img">
-                <img
-                  src="/public/images/category/smhome.png"
-                  alt="Smart Home"
-                />
+              <div class="category_img_box">
+                <img src="../public/images/category/smhome.png" alt="" />
               </div>
               <span>Smart Home</span>
             </div>
             <div class="category_box">
-              <div class="category_box_img">
-                <img
-                  src="/public/images/category/h.phone.png"
-                  alt="Headphones"
-                />
+              <div class="category_img_box">
+                <img src="../public/images/category/h.phone.png" alt="" />
               </div>
               <span>Headphones and Portable Speakers</span>
             </div>
             <div class="category_box">
-              <div class="category_box_img">
-                <img src="/public/images/category/phone.png" alt="Phone" />
+              <div class="category_img_box">
+                <img src="../public/images/category/phone.png" alt="" />
               </div>
-              <span> Cell Phones and Accessories </span>
+              <span>Cell Phones and Accessories</span>
             </div>
             <div class="category_box">
-              <div class="category_box_img">
-                <img src="/public/images/category/joystick.png" alt="Game" />
+              <div class="category_img_box">
+                <img src="../public/images/category/joystick.png" alt="" />
               </div>
-              <span>Video Games, Consoles, and Accessories</span>
+              <span>Video Games, Consoles and Accessories</span>
             </div>
           </div>
         </div>
       </div>
-      <div class="brand_frame">
+      <div class="brands_frame">
         <div class="container">
-          <div class="brand_top">
-            <span>Shop by brand</span>
-          </div>
-          <div class="brand_bottom">
-            <div class="active">Apple</div>
+          <span class="spec_title">Shop by brand</span>
+          <div class="brands_wrapper">
+            <div class="brand active">Apple</div>
             <div class="brand">Dell</div>
             <div class="brand">Hp</div>
             <div class="brand">Lenovo</div>
@@ -268,165 +231,146 @@
           </div>
         </div>
       </div>
-      <div class="selling_product_frame">
+      <div class="top_products_frame">
         <div class="container">
-          <div class="category_top">
+          <div class="top_products_top">
             <span>Top selling Products</span>
-            <a href="">View All</a>
+            <a href="/Product/all.html">View All</a>
           </div>
-          <div class="product_wrapper">
-            <div class="next_prev_box">
-              <img src="public/images/next.png" alt="" />
+          <div class="top_products_bottom">
+            <div class="product_box">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url(../public/images/acerlaptop.png); background-size: cover; "></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
             </div>
-            <div class="product_boxes">
-              <div class="product_box">
+            <div class="product_box">
+              <a href="">
+                <div
+                  class="product_img_box"
+                  style="
+                    background: url('../public/images/iphone11.png');
+                    background-size: cover;
+                  "
+                ></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Apple</span>
                 <a href="">
-                  <div
-                    class="product_img_box"
-                    style="
-                      background: url('public/images/watch.png');
-                      background-size: cover;
-                    "
-                  >
-                    <div class="hover_box">
-                      <button>Add to Cart</button>
-                    </div>
-                  </div>
+                  <p class="product_desc">
+                    Apple iPhone 11 64GB Smartphone - Black.
+                  </p>
                 </a>
-                <div class="product_content_box">
-                  <span>Samsung</span>
-                  <a href="">
-                    <p class="product_desc">
-                      Apple Watch SE (GPS) 40mm Space Grey Alminium Case with
-                    </p>
-                  </a>
-                  <div class="review_box">
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <span>3,014 reviews</span>
-                  </div>
-                  <div class="price_box">
-                    <strong>$32</strong>
-                    <span>$45</span>
-                  </div>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
                 </div>
               </div>
-              <div class="product_box">
-                <a href="">
-                  <div
-                    class="product_img_box"
-                    style="
-                      background: url('public/images/iphone11.png');
-                      background-size: cover;
-                    "
-                  >
-                    <div class="hover_box">
-                      <button>Add to Cart</button>
-                    </div>
-                  </div>
-                </a>
-                <div class="product_content_box">
-                  <span class="product_title">Apple</span>
-                  <a href="">
-                    <p class="product_desc">
-                      Apple iPhone 11 64GB Smartphone - Black.
-                    </p>
-                  </a>
-                  <div class="review_box">
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <span>3,014 reviews</span>
-                  </div>
-                  <div class="price_box">
-                    <strong>$32</strong>
-                    <span>$45</span>
+            </div>
+            <div class="product_box">
+              <a href="">
+                <div
+                  class="product_img_box"
+                  style="
+                    background: url('../public/images/irobot.png');
+                    background-size: cover;
+                  "
+                >
+                  <div class="hover_box">
+                    <button>Add to Cart</button>
                   </div>
                 </div>
-              </div>
-              <div class="product_box">
+              </a>
+              <div class="product_content_box">
+                <spanclass="product_title">SONY</span>
                 <a href="">
-                  <div
-                    class="product_img_box"
-                    style="
-                      background: url('public/images/irobot.png');
-                      background-size: cover;
-                    "
-                  >
-                    <div class="hover_box">
-                      <button>Add to Cart</button>
-                    </div>
-                  </div>
+                  <p class="product_desc">
+                    iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.
+                  </p>
                 </a>
-                <div class="product_content_box">
-                  <spanclass="product_title">SONY</span>
-                  <a href="">
-                    <p class="product_desc">
-                      iRobot Roomba i3+ EVO Wi-Fi Connected Self-Empty Robot.
-                    </p>
-                  </a>
-                  <div class="review_box">
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <span>3,014 reviews</span>
-                  </div>
-                  <div class="price_box">
-                    <strong>$32</strong>
-                    <span>$45</span>
-                  </div>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
                 </div>
               </div>
-              <div class="product_box">
+            </div>
+            <div class="product_box">
+              <a href="">
+                <div
+                  class="product_img_box"
+                  style="
+                    background: url('../public/images/icons/cleaner.png');
+                    background-size: cover;
+                  "
+                >
+                  <div class="hover_box">
+                    <button>Add to Cart</button>
+                  </div>
+                </div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Eatsport</span>
                 <a href="">
-                  <div
-                    class="product_img_box"
-                    style="
-                      background: url('public/images/icons/cleaner.png');
-                      background-size: cover;
-                    "
-                  >
-                    <div class="hover_box">
-                      <button>Add to Cart</button>
-                    </div>
-                  </div>
+                  <p class="product_desc">
+                    Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue
+                  </p>
                 </a>
-                <div class="product_content_box">
-                  <span class="product_title">Eatsport</span>
-                  <a href="">
-                    <p class="product_desc">
-                      Dyson V7 Complete Cordless Stick Vacuum - Iron/Blue
-                    </p>
-                  </a>
-                  <div class="review_box">
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <span>3,014 reviews</span>
-                  </div>
-                  <div class="price_box">
-                    <strong>$32</strong>
-                    <span>$45</span>
-                  </div>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
                 </div>
               </div>
             </div>
             <div class="next_prev_box" style="transform: scaleX(-1)">
-              <img src="public/images/next.png" alt="" />
+              <img src="../public/images/next.png" alt="" />
             </div>
           </div>
           <div class="pagination_box">
             <div class="pagination_main">
-              <img src="public/images/icons/arrow-prev_next.svg" alt="" />
+              <img src="../public/images/icons/arrow-prev_next.svg" alt="" />
               <div class="pagination_dot">
                 <div class="dot">
                   <div></div>
@@ -448,7 +392,7 @@
                 </div>
               </div>
               <img
-                src="public/images/icons/arrow-prev_next.svg"
+                src="../public/images/icons/arrow-prev_next.svg"
                 alt=""
                 style="transform: scaleX(-1)"
               />
@@ -456,356 +400,754 @@
           </div>
         </div>
       </div>
-      <div class="catalog_frame">
+      <div class="all_products_frame">
         <div class="container">
-          <div class="catalog_top">
-            <div>Laptops and Accessories</div>
+          <div class="frame_info">
+            <span class="spec_title">Laptops and Accessories</span>
             <p>
               Shop laptops, desktops, monitors, tablets, PC gaming, hard drives
               and storage, accessories and more
             </p>
           </div>
-          <div class="hr_rule"></div>
-          <div class="catalog_bottom">
-            <div class="select_boxes">
-              <div class="select_box">
-                <select>
-                  <option selected>Price</option>
-                </select>
-              </div>
-              <div class="select_box">
-                <select>
-                  <option selected>Brand</option>
-                </select>
-              </div>
-              <div class="select_box">
-                <select>
-                  <option selected>Color</option>
-                </select>
-              </div>
+          <div class="products_filters">
+            <div class="filter_box">
+              <select name="">
+                <option value="" selected disabled>Price</option>
+              </select>
             </div>
-            <div class="catalog_container">
-              <div class="catalog_boxes">
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/aspire.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">SAMSUNG</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Acer Aspire 5 15.6" Laptop - Silver (Intel Core
-                        i7-1165G7/512GB SSD/12GB RAM/Windows 11)
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>32$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
+            <div class="filter_box">
+              <select name="">
+                <option value="" selected disabled>Brand</option>
+              </select>
+            </div>
+            <div class="filter_box">
+              <select name="">
+                <option value="" selected disabled>Color</option>
+              </select>
+            </div>
+          </div>
+          <div class="products_wrap">
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
                 </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/acerlaptop.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">SONY</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Acer Nitro 5 15.6" Gaming Laptop - Black (Intel Core
-                        i5-10300H/512GB SSD/12GB RAM/GTX 1650/Windows 11)
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>32$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/surface.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">SONY</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Microsoft Surface Laptop Go 12.4" Multi-Touch - Intel
-                        Core i5, 8GB RAM, 128GB SSD, Windows 10 Home in S Mode -
-                        Certified Refurbished
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>399$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/aceraspire.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">Eastsport</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Acer Aspire 5 15.6" Laptop - Silver (Intel Core
-                        i5-1135G7/512GB SSD/8GB RAM/Windows 11)
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>32$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/vivobook.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">SONY</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey (Intel
-                        Core i3-1005G1/256GB SSD/8GB RAM/Win 11 S)
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>899$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/surface.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">SONY</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Microsoft Surface Laptop Go 12.4in Touchscreen Intel i5
-                        Certified Refurbished
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>399$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/dellxp.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">Eastsport</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Dell XPS 13.4" Touchscreen Laptop - Silver (Intel Evo
-                        Core i7-1185G7/512GB SSD/16GB RAM/Windows 10)
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>32$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/m1pro.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">SONY</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Apple MacBook Pro 16" (2021) - Space Grey (Apple M1 Pro
-                        Chip / 512GB SSD / 16GB RAM) - English - Open Box
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>899$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/m1pro.png" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">LENOVA</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        Apple MacBook Pro 16" (2021) - Space Grey (Apple M1 Pro
-                        Chip / 512GB SSD / 16GB RAM) - English - Open Box
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>32$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="product_box">
-                  <div class="product_img">
-                    <a href="#">
-                      <img src="/public/images/ac" />
-                    </a>
-                  </div>
-                  <div class="product_content_box">
-                    <span class="product_title">ASUS</span>
-                    <a href="#">
-                      <p class="product_desc">
-                        ASUS VivoBook 15 X515 15.6" Laptop - Slate Grey (Intel
-                        Core i3-1005G1/256GB SSD/8GB RAM/Win 11 S)
-                      </p>
-                    </a>
-                    <div class="review_box">
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <img src="public/images/icons/review.svg" alt="" />
-                      <span>3,014 reviews</span>
-                    </div>
-                    <div class="price_box">
-                      <strong>349$</strong>
-                      <span>$45</span>
-                    </div>
-                  </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
                 </div>
               </div>
             </div>
-            <div class="pagionation_box">
-                <div class="pagionation_main">
-                 <div class="round_next">
-                     <img src="/public/images/icons/arrow-prev_next.svg" alt="" />
-                 </div>
-                  <div class="pagination_dot">
-                    <div class="dot">
-                      1
-                    </div>
-                    <div class="dot active">
-                      2
-                    </div>
-                    <div class="dot ">
-                      3
-                    </div>
-                    <div class="dot grey">
-                      4
-                    </div>
-                    <div class="dot">
-                      5
-                    </div>
-                    <div class="dot">
-                        ....
-                      </div>
-                      <div class="dot">
-                        20
-                      </div>
-                  </div>
-                 <div class="round_next active"> 
-                    <img
-                    src="/public/images/icons/arrow-prev_next.svg"
-                    alt=""
-                    style="transform: scaleX(-1)"
-                  />
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
                 </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
                 </div>
               </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+            <div class="product_box" style="width: 258px">
+              <a href="./choosenProduct.html">
+                <div class="product_img_box" style="background: url('../public/images/aceraspire.png'); background-size: cover; height: 280px;"></div>
+              </a>
+              <div class="product_content_box">
+                <span class="product_title">Samsung</span>
+                <a href="./choosenProduct.html">
+                  <p class="product_desc">
+                    Acer Aspire 5 15.6" Laptop - Silver (Intel Core i7-1165G7/512GB SSD/12GB RAM/Windows 11)
+                  </p>
+                </a>
+                <div class="review_box">
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <img src="../public/images/icons/review.svg" alt="" />
+                  <span>3,014 reviews</span>
+                </div>
+                <div class="price_box">
+                  <strong>$32</strong>
+                  <span>$45</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="pro_pagination_box">
+            <div class="next_prev_btn">
+              <img src="../public/images/next.png" alt="">
+            </div>
+            <div class="pagination_number_wrap">
+              <div class="pagination_number_box active">1</div>
+              <div class="pagination_number_box">2</div>
+              <div class="pagination_number_box">3</div>
+              <div class="pagination_number_box">4</div>
+              <div class="pagination_number_box">5</div>
+              <div class="pagination_number_box">6</div>
+              <div class="pagination_number_box">7</div>
+              <div class="pagination_number_box">8</div>
+              <div class="pagination_number_box">9</div>
+              <div class="pagination_number_box">..</div>
+              <div class="pagination_number_box">20</div>
+            </div>
+            <div class="next_prev_btn">
+              <img src="../public/images/next.png" style="transform: scaleX(-1);" alt="">
             </div>
           </div>
         </div>
@@ -821,14 +1163,14 @@
               >Contact Us</span
             >
             <div class="footer_contact_main">
-              <img src="/public/images/phone-call 1.svg" />
+              <img src="../public/images/phone-call 1.svg" />
               <div>
                 <strong>Monday-Friday: 08am-9pm</strong>
                 <span>+(1) 123 456 7890</span>
               </div>
             </div>
             <div class="footer_contact_main">
-              <img src="/public/images/email 1.svg" />
+              <img src="../public/images/email 1.svg" />
               <div>
                 <strong>Need help with your order?</strong>
                 <span>support@zenmart.com</span>
@@ -868,11 +1210,11 @@
                 >Mobile Apps</span
               >
               <div class="mobile_app_box">
-                <img src="/public/images/apple 1.png" />
+                <img src="../public/images/apple 1.png" />
                 <span>iOS App</span>
               </div>
               <div class="mobile_app_box">
-                <img src="/public/images/android (1) 1.png" />
+                <img src="../public/images/android (1) 1.png" />
                 <span>Android App</span>
               </div>
             </div>
@@ -883,12 +1225,12 @@
                 >We accept</span
               >
               <div class="card_box">
-                <img src="/public/images/icons/visa.png" alt="" />
-                <img src="/public/images/icons/mastercard.png" alt="" />
-                <img src="/public/images/icons/applepay.png" alt="" />
-                <img src="/public/images/icons/discover.png" alt="" />
-                <img src="/public/images/icons/paypal.png" alt="" />
-                <img src="/public/images/icons/amex" alt="" />
+                <img src="../public/images/icons/visa.png" alt="" />
+                <img src="../public/images/icons/mastercard.png" alt="" />
+                <img src="../public/images/icons/applepay.png" alt="" />
+                <img src="../public/images/icons/discover.png" alt="" />
+                <img src="../public/images/icons/paypal.png" alt="" />
+                <img src="../public/images/icons/amex" alt="" />
               </div>
             </div>
           </div>
