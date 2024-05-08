@@ -524,23 +524,26 @@
 }
 
 .shop_category_frame .container .category_wrapper {
-  margin-top: 30px;
   width: 100%;
-  height: auto;
-
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  cursor: pointer;
+  align-items: center;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #041e42;
 }
 
-.shop_category_frame.category_wrapper .category_box {
-  width: 142px;
+.shop_category_frame .category_wrapper .category_box {
+  width: 100%;
   height: auto;
 
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  align-items: center;
 }
 
 .shop_category_frame .category_box .category_img_box {
